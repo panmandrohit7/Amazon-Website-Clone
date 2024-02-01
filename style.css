@@ -12,6 +12,11 @@
 .border:hover {
   border: 1.5px solid white;
 }
+
+/*  Navigation-Bar-Start */
+
+/* Navbar-1-Start*/
+
 .navbar {
   height: 60px;
   background-color: #0f1111;
@@ -203,6 +208,10 @@
   height: 30px;
 }
 
+/* Navbar-2-End */
+
+/* Navigation-2-Start */
+
 .navbar-2 {
   background-color: #232f3e;
   height: 39px;
@@ -265,4 +274,26 @@
 
 .opt-16-img {
   height: 39px;
+}
+
+/* Media Queries for Responsive Font Sizes */
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+  .opt-10,
+  .opt-11,
+  .opt-12,
+  .opt-13,
+  .opt-14,
+  .opt-15 {
+    display: none;
+  }
+}
+
+/* Navbar-2-End */
+
+/* Main-Body-Start */
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
